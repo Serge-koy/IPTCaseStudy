@@ -29,7 +29,7 @@ public class bankSystem {
     5. month of payment
     */
     @WebMethod
-    public void getWithdraw(int money){
+    public void setWithdraw(int money){
          this.money = money;
     }
     
