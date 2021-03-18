@@ -33,6 +33,9 @@ public class bankSystem {
          this.money = money;
     }
     
+    public void setDeposit(int money){
+        this.money = money;
+    }
     
     /*
     dito nyo naman lagay mga function methods
@@ -52,4 +55,13 @@ public class bankSystem {
         }
          return balance;    
     }
+    public int deposit(){
+        if(money > 0)
+        money += balance ;
+        else{
+        System.out.println("Invalid input");
+    }
+        return balance;
+    }
+    
 }
